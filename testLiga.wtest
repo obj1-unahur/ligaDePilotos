@@ -1,0 +1,17 @@
+import ligaDePilotos.*
+
+describe "Grupo de test" {
+
+  test "test 1" {
+    assert.that(true)
+  }
+
+  test "test 2" {
+    assert.notThat(false)
+  }
+
+  test "test 3" {
+    assert.equals(2,10.div(5))
+  }
+
+}
